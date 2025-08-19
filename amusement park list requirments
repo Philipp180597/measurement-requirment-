@@ -1,0 +1,14 @@
+# amusement park list requirments. to ride 
+
+height = int(input("Enter your height in cm: "))
+credits = int(input("Enter your number of credits: "))
+
+#condition check
+if height >= 137 and credits >= 10:
+  print ('enjoy your ride, my drilla!')
+elif credits >= 10 and height < 137:
+ print ('You are not tall enough to ride.')
+elif height >= 137 and credits < 10:
+ print("You don't have enough credits.")
+else:
+  print('You have not met either requirement.')
